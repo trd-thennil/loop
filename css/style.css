@@ -1,0 +1,42 @@
+
+body {
+	color:#565656;
+}
+
+.head_cover .sub_content p{
+	font-size: 25px;
+    font-weight: 300;
+}
+
+.head_cover .head_logo img{
+	
+}
+.head_cover .form_email{
+	text-align: center;
+	margin: 15px 0px 40px;
+}
+
+.hr {
+	background: url("../images/line_35.png") repeat-x;
+	height: 8px;
+    width: 85%;
+    margin: 30px auto;
+}
+
+.inner_content .media_content {
+	padding: 0px 15px;
+}
+
+.socialmedia {
+	padding: 15px 0px;
+}
+footer {
+	padding: 10px;
+}
+
+@media (min-width: 992px) {
+	.inner_content .media_content{
+		width: 750px;
+		margin:auto;
+	}
+}
