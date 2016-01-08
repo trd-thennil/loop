@@ -2,41 +2,177 @@
 body {
 	color:#565656;
 }
-
-.head_cover .sub_content p{
-	font-size: 25px;
-    font-weight: 300;
+ul {
+	padding:0px;
+	margin:0px;
+}
+li{
+	list-style-type: none;
+}
+a , a:hover, a:active {
+	color: #565656;
+	text-decoration: none;
 }
 
-.head_cover .head_logo img{
+.head_cover .sub_content {
 	
+}
+.head_cover .sub_content p{
+	font-size: 26px;
+    font-weight: 300;
+}
+.head_cover .head_line {
+	padding-top:8px;
+}
+.head_cover .cover_text {
+	padding-top: 44px;
+	/*line-height: 100;*/
+}
+.head_cover .cover_text p {
+	color:#565656;
+	font-size: 28px;
+	font-weight: 500;
+}
+.head_cover .head_logo {
+	padding:18px 0px;
 }
 .head_cover .form_email{
 	text-align: center;
-	margin: 15px 0px 40px;
+	margin: 35px 0px 50px;
 }
-
+#email_add{
+	box-shadow: 0px -3px 6px;
+	box-shadow: 0px -2px 7px 1px;
+    border-color: #999999;
+    background: -webkit-linear-gradient(#E2E1E1, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E2E1E1, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E2E1E1, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E2E1E1, #fff); /* Standard syntax */
+    color: #4c4c4c!important;
+    font-weight: 200;
+}
+#btn_submit{
+	margin-left: 10px;
+    border-color: #7c7c7c;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 3px #7c7c7c;
+    color: #565656;
+    font-size: 31px;
+    padding: 5px 5px;
+    font-weight: 200;
+}
 .hr {
 	background: url("../images/line_35.png") repeat-x;
 	height: 8px;
     width: 85%;
     margin: 30px auto;
 }
+.hr_media{
+	background: url("../images/line_35.png") repeat-x;
+	height: 8px;
+    width: 50%;
+    margin: 30px auto;
+}
+.hr_foot{
+	background: url("../images/line_45.png") repeat-x;
+	height: 8px;
+	margin: 5px 0px 0px;
 
+}
+.inner_content h2{
+	line-height: 3;
+}
+.inner_content p{
+	font-size: xx-large;
+    font-weight: 200;
+}
 .inner_content .media_content {
-	padding: 0px 15px;
+	padding: 20px 15px;
+}
+.socialmedia {
+	margin: 155px 0px 0px;
+}
+.socialmedia ul {
+	text-align: center;
+}
+.socialmedia ul li {
+	display: inline-block;
+	padding:5px;
 }
 
-.socialmedia {
-	padding: 15px 0px;
-}
 footer {
 	padding: 10px;
 }
+.footer_content {
+	padding-top: 20px;
+}
+.footer_content ul {
+	text-align:center;
+}
+.footer_content ul li {
+	display:inline-block;
+	padding: 0px 10px;
+}
 
+.footer_content .copy_right {
+	font-weight: 200;
+}
+
+.wrap {
+    float:right;
+}
+.wrap:before {
+    content:'';
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+    /*margin-left:-0.25em;  adjusts spacing */
+}
+.wrap p {
+    display:inline-block;
+    vertical-align:middle;
+    width:auto;
+    font-weight: 200;
+    font-size: 13.5px;
+
+}
+.wrap img {
+    float:right;
+}
+.wrap .invisible {
+    height:87px;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+@media (min-width: 1185px){
+	.wrap {
+	    width: 35%;
+	    top: -64px;
+	    position: relative;
+	}
+
+}
 @media (min-width: 992px) {
+
+	.head_cover .sub_content {
+		margin:auto;
+	}
 	.inner_content .media_content{
 		width: 750px;
 		margin:auto;
+	}
+	.wrap img {
+    	/*width:38%;*/
+	}
+	#email_add {
+    width: 480px;
+    height:62px;
+    margin-right:10px;
+    font-size: 31px;
+	}
+	#btn_submit {
+    width: 83px;
+    height:60px;
 	}
 }
