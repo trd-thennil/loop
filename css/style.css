@@ -176,3 +176,14 @@ footer {
     height:60px;
 	}
 }
+@media (min-width: 321px) and (max-width: 420px){
+	.wrap p {
+		font-size: 70%;
+	}
+}
+
+@media (max-width: 350px){
+	.wrap p {
+		font-size: 58%;
+	}
+}
